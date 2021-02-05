@@ -1,0 +1,95 @@
+2020-11-23 11:13:55.635 [http-nio-8095-exec-8] DEBUG com.twkf.dao.CommonDao.login - ==>  Preparing: select * from extract_user where user_name=? and user_pwd=?
+2020-11-23 11:13:55.651 [http-nio-8095-exec-8] DEBUG com.twkf.dao.CommonDao.login - ==> Parameters: test(String), test(String)
+2020-11-23 11:13:55.693 [http-nio-8095-exec-8] DEBUG com.twkf.dao.CommonDao.login - <==      Total: 1
+2020-11-23 11:13:55.939 [http-nio-8095-exec-6] DEBUG com.twkf.dao.CommonDao.findCompany - ==>  Preparing: select distinct company_name from extract_company_file where is_deleted = 0
+2020-11-23 11:13:55.939 [http-nio-8095-exec-6] DEBUG com.twkf.dao.CommonDao.findCompany - ==> Parameters: 
+2020-11-23 11:13:56.051 [http-nio-8095-exec-6] DEBUG com.twkf.dao.CommonDao.findCompany - <==      Total: 9
+2020-11-23 11:14:15.891 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? where is_deleted = 0 and company_name = ? and type_id = ? and r.file_id is null
+2020-11-23 11:14:15.892 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 杭州交通行政执法队(String), 2(Integer)
+2020-11-23 11:15:30.963 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:15:30.963 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 杭州交通行政执法队(String), 2(Integer)
+2020-11-23 11:15:31.120 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 687
+2020-11-23 11:15:36.484 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - ==>  Preparing: insert into extract_record (file_id, user_id, db_time) values (?, ?, ?)
+2020-11-23 11:15:36.485 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - ==> Parameters: 558(Integer), 1(String), 2020-11-23 11:15:36(String)
+2020-11-23 11:15:36.496 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - <==    Updates: 1
+2020-11-23 11:15:40.769 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:15:40.770 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 杭州交通行政执法队(String), 2(Integer)
+2020-11-23 11:15:40.816 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 686
+2020-11-23 11:15:43.795 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - ==>  Preparing: insert into extract_record (file_id, user_id, db_time) values (?, ?, ?)
+2020-11-23 11:15:43.796 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - ==> Parameters: 457(Integer), 1(String), 2020-11-23 11:15:43(String)
+2020-11-23 11:15:43.820 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - <==    Updates: 1
+2020-11-23 11:15:46.016 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:15:46.016 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 杭州交通行政执法队(String), 2(Integer)
+2020-11-23 11:15:46.061 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 685
+2020-11-23 11:15:48.288 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - ==>  Preparing: insert into extract_record (file_id, user_id, db_time) values (?, ?, ?)
+2020-11-23 11:15:48.289 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - ==> Parameters: 664(Integer), 1(String), 2020-11-23 11:15:48(String)
+2020-11-23 11:15:48.307 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - <==    Updates: 1
+2020-11-23 11:15:51.432 [http-nio-8095-exec-5] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:15:51.433 [http-nio-8095-exec-5] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 杭州港航行政执法队(String), 2(Integer)
+2020-11-23 11:15:51.735 [http-nio-8095-exec-5] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 725
+2020-11-23 11:15:53.889 [http-nio-8095-exec-5] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - ==>  Preparing: insert into extract_record (file_id, user_id, db_time) values (?, ?, ?)
+2020-11-23 11:15:53.889 [http-nio-8095-exec-5] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - ==> Parameters: 1006(Integer), 1(String), 2020-11-23 11:15:53(String)
+2020-11-23 11:15:53.913 [http-nio-8095-exec-5] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - <==    Updates: 1
+2020-11-23 11:15:56.642 [http-nio-8095-exec-4] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:15:56.642 [http-nio-8095-exec-4] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 萧山交通局(String), 2(Integer)
+2020-11-23 11:15:56.654 [http-nio-8095-exec-4] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 69
+2020-11-23 11:16:00.330 [http-nio-8095-exec-4] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - ==>  Preparing: insert into extract_record (file_id, user_id, db_time) values (?, ?, ?)
+2020-11-23 11:16:00.331 [http-nio-8095-exec-4] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - ==> Parameters: 1513(Integer), 1(String), 2020-11-23 11:16:00(String)
+2020-11-23 11:16:00.352 [http-nio-8095-exec-4] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - <==    Updates: 1
+2020-11-23 11:16:01.960 [http-nio-8095-exec-6] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:16:01.961 [http-nio-8095-exec-6] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 萧山交通局(String), 2(Integer)
+2020-11-23 11:16:01.973 [http-nio-8095-exec-6] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 68
+2020-11-23 11:16:04.331 [http-nio-8095-exec-6] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - ==>  Preparing: insert into extract_record (file_id, user_id, db_time) values (?, ?, ?)
+2020-11-23 11:16:04.332 [http-nio-8095-exec-6] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - ==> Parameters: 1498(Integer), 1(String), 2020-11-23 11:16:04(String)
+2020-11-23 11:16:04.351 [http-nio-8095-exec-6] DEBUG com.twkf.dao.CommonDao.insertExtractRecord - <==    Updates: 1
+2020-11-23 11:26:18.389 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.login - ==>  Preparing: select * from extract_user where user_name=? and user_pwd=?
+2020-11-23 11:26:18.451 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.login - ==> Parameters: test(String), test(String)
+2020-11-23 11:26:18.483 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.login - <==      Total: 1
+2020-11-23 11:26:18.593 [http-nio-8095-exec-8] DEBUG com.twkf.dao.CommonDao.findCompany - ==>  Preparing: select distinct company_name from extract_company_file where is_deleted = 0
+2020-11-23 11:26:18.594 [http-nio-8095-exec-8] DEBUG com.twkf.dao.CommonDao.findCompany - ==> Parameters: 
+2020-11-23 11:26:18.730 [http-nio-8095-exec-8] DEBUG com.twkf.dao.CommonDao.findCompany - <==      Total: 9
+2020-11-23 11:26:22.920 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:22.921 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:22.930 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 11:26:23.545 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:23.545 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:23.554 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 11:26:23.749 [http-nio-8095-exec-7] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:23.749 [http-nio-8095-exec-7] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:23.757 [http-nio-8095-exec-7] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 11:26:23.924 [http-nio-8095-exec-9] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:23.924 [http-nio-8095-exec-9] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:23.933 [http-nio-8095-exec-9] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 11:26:34.935 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:34.935 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:34.944 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 11:26:35.602 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:35.603 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:35.613 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 11:26:36.101 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:36.102 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:36.110 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 11:26:38.854 [http-nio-8095-exec-6] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:38.854 [http-nio-8095-exec-6] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:38.869 [http-nio-8095-exec-6] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 11:26:41.439 [http-nio-8095-exec-7] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:41.440 [http-nio-8095-exec-7] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:41.449 [http-nio-8095-exec-7] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 11:26:41.829 [http-nio-8095-exec-5] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:41.830 [http-nio-8095-exec-5] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:41.838 [http-nio-8095-exec-5] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 11:26:42.164 [http-nio-8095-exec-10] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:42.164 [http-nio-8095-exec-10] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:42.173 [http-nio-8095-exec-10] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 11:26:42.349 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:42.349 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:42.358 [http-nio-8095-exec-1] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 11:26:42.671 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:42.672 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:42.681 [http-nio-8095-exec-3] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 11:26:42.845 [http-nio-8095-exec-8] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==>  Preparing: select distinct id, file_number from extract_company_file f left join extract_record r on f.id = r.file_id and r.user_id = ? and r.is_deleted = 0 where f.is_deleted = 0 and f.company_name = ? and f.type_id = ? and r.file_id is null
+2020-11-23 11:26:42.845 [http-nio-8095-exec-8] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - ==> Parameters: 1(String), 淳安交通局(String), 2(Integer)
+2020-11-23 11:26:42.854 [http-nio-8095-exec-8] DEBUG com.twkf.dao.CommonDao.findExtractFileNumber - <==      Total: 0
+2020-11-23 12:07:09.701 [http-nio-8095-exec-7] DEBUG com.twkf.dao.CommonDao.findCompany - ==>  Preparing: select distinct company_name from extract_company_file where is_deleted = 0
+2020-11-23 12:07:09.703 [http-nio-8095-exec-7] DEBUG com.twkf.dao.CommonDao.findCompany - ==> Parameters: 
+2020-11-23 12:07:09.722 [http-nio-8095-exec-7] DEBUG com.twkf.dao.CommonDao.findCompany - <==      Total: 9

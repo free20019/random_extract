@@ -1,0 +1,6 @@
+2020-12-08 16:16:31.871 [http-nio-8095-exec-9] DEBUG com.twkf.dao.CommonDao.findCompany - ==>  Preparing: select distinct company_name from extract_company_file where is_deleted = 0
+2020-12-08 16:16:32.010 [http-nio-8095-exec-9] DEBUG com.twkf.dao.CommonDao.findCompany - ==> Parameters: 
+2020-12-08 16:16:32.138 [http-nio-8095-exec-9] DEBUG com.twkf.dao.CommonDao.findCompany - <==      Total: 9
+2020-12-08 16:16:37.920 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.insertPointInfo - ==>  Preparing: insert into a_caidian (name, px, py, db_time) values (?, ?, ?, ?)
+2020-12-08 16:16:37.922 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.insertPointInfo - ==> Parameters: 1第三方士大夫范德萨发生的是佛挡杀佛(String), 120.15555(String), 30.111111(String), 2020-12-08 16:16:37(String)
+2020-12-08 16:16:37.951 [http-nio-8095-exec-2] DEBUG com.twkf.dao.CommonDao.insertPointInfo - <==    Updates: 1

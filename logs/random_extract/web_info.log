@@ -1,0 +1,48 @@
+2021-01-07 16:47:53.757 [main] INFO  com.twkf.RandomExtractApplicationTests - Starting RandomExtractApplicationTests using Java 1.8.0_131 on fatherOfSun with PID 22820 (started by 黄显乐 in E:\ideaworkspace\random_extract)
+2021-01-07 16:47:53.762 [main] INFO  com.twkf.RandomExtractApplicationTests - No active profile set, falling back to default profiles: default
+2021-01-07 16:47:55.444 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-07 16:47:55.457 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2021-01-07 16:47:57.171 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-07 16:48:00.417 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-07 16:48:01.028 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2021-01-07 16:48:01.961 [main] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-01-07 16:48:04.137 [main] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-01-07 16:48:06.393 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-07 16:48:06.554 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-07 16:48:06.600 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-07 16:48:06.966 [main] INFO  com.twkf.RandomExtractApplicationTests - Started RandomExtractApplicationTests in 14.067 seconds (JVM running for 17.599)
+2021-01-07 16:48:07.816 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-07 16:48:07.818 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-01-07 16:48:07.868 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-01-07 16:48:20.681 [main] INFO  com.twkf.RandomExtractApplicationTests - Starting RandomExtractApplicationTests using Java 1.8.0_131 on fatherOfSun with PID 5180 (started by 黄显乐 in E:\ideaworkspace\random_extract)
+2021-01-07 16:48:20.683 [main] INFO  com.twkf.RandomExtractApplicationTests - No active profile set, falling back to default profiles: default
+2021-01-07 16:48:21.937 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-07 16:48:21.960 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 JDBC repository interfaces.
+2021-01-07 16:48:24.197 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-07 16:48:24.766 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-07 16:48:24.832 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2021-01-07 16:48:25.188 [main] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-01-07 16:48:25.534 [main] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-01-07 16:48:25.732 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-07 16:48:25.762 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-07 16:48:25.796 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-07 16:48:25.980 [main] INFO  com.twkf.RandomExtractApplicationTests - Started RandomExtractApplicationTests in 6.029 seconds (JVM running for 7.282)
+2021-01-07 16:48:26.288 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-07 16:48:26.291 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-01-07 16:48:26.303 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-01-07 16:49:13.028 [main] INFO  com.twkf.RandomExtractApplicationTests - Starting RandomExtractApplicationTests using Java 1.8.0_131 on fatherOfSun with PID 19928 (started by 黄显乐 in E:\ideaworkspace\random_extract)
+2021-01-07 16:49:13.032 [main] INFO  com.twkf.RandomExtractApplicationTests - No active profile set, falling back to default profiles: default
+2021-01-07 16:49:14.297 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-01-07 16:49:14.316 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 JDBC repository interfaces.
+2021-01-07 16:49:16.641 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-07 16:49:17.134 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-07 16:49:17.208 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2021-01-07 16:49:17.594 [main] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-01-07 16:49:17.891 [main] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-01-07 16:49:18.112 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-07 16:49:18.145 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-07 16:49:18.183 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-07 16:49:18.381 [main] INFO  com.twkf.RandomExtractApplicationTests - Started RandomExtractApplicationTests in 6.124 seconds (JVM running for 7.379)
+2021-01-07 16:49:18.706 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-07 16:49:18.708 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-01-07 16:49:18.718 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.

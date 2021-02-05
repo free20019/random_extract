@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="307.969" height="308" viewBox="0 0 307.969 308">
+  <defs>
+    <style>
+      .circle-dotted-line {
+        fill: none;
+        stroke: #95c2fa;
+        stroke-width: 6px;
+        stroke-dasharray: 30 12 12 12;
+      }
+    </style>
+  </defs>
+  <circle id="circle-dotted-line" data-name="circle-dotted-line" class="circle-dotted-line" cx="153.969" cy="154" r="151"/>
+</svg>
